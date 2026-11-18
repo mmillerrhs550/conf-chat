@@ -12,7 +12,7 @@ I'm stronger in Python than Java, and OpenChord is a Java library. However, both
 
 ## Installation
 
-Requires Python 3.9+.
+Requires Python 3.9+. and Kademlia
 
 ```bash
 git clone <your-fork-url>
@@ -28,8 +28,6 @@ Start at least one extra node first. A Kademlia node with no peers has nowhere t
 #In my experience you must set up a virtual environment first on a Linux setup
 python3 -m venv venv
 source venv/bin/activate
-#This is a one time code you can run if you do not have Kademlia installed
-pip install -r requirements.txt
 # Terminal 1: a node with no chat prompt
 python conf_chat.py --port 8468 --relay
 
