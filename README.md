@@ -12,7 +12,7 @@ I'm stronger in Python than Java, and OpenChord is a Java library. However, both
 
 ## Installation
 
-Requires Python 3.9+. and Kademlia
+Requires Python 3.9+. and Kademlia. This was done using a .txt once in my case
 
 ```bash
 git clone <your-fork-url>
